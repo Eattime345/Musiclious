@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Musiclious</string>
+    <string name="action_settings">Settings</string>
+    <string name="PerfectEd">Perfect - Ed Sheeran</string>
+    <string name="lauv">I Like Me Better - Lauv</string>
+    <string name="bob">Get Up, Stand Up - Bob Marley</string>
+    <string name= "jaz">Dari Mata - Jaz</string>
+    <string name="havana">Havana - Camila Cabello</string>
+    <string name="weekend">Starboy - The Weekend</string>
+    <string name="micheal">Man In the Mirror - Micheal Jackson</string>
+    <string name="micheal_b">Its A Beautiful Day - Michael Buble</string>
+    <string name="ariana">Dangerous Woman - Ariana Grande</string>
+    <string name="adele">Hello - Adele</string>
+  <string name="action_search">Search</string>
+  <string name="action_share">Share</string>
+  <string name="action_setting">Settings</string>
+  <string name="account">Account</string>
+  <string name="notification">Notification</string>
+  <string name="social">Social</string>
+  
+</resources>

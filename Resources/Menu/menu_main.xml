@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools ="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    >
+  <item
+    android:id="@+id/search"
+    android:icon="@android:drawable/ic_menu_search"
+    android:showAsAction="always"
+    android:tittle="@string/action_search"
+    />
+  <item
+    android:id="@+id/share"
+    android:icon="@android:drawable/ic_menu_share"
+    android:showAsAction="always"
+    android:tittle="@string/action_share"
+    />
+<item
+    android:id="@+id/setting"
+    android:icon="@android:drawable/ic_dialog_email"
+    android:showAsAction="ifRoom"
+    android:tittle="@string/action_setting"
+    />
+  
+  <item
+    android:id="@+id/account"
+    android:orderInCategory="100"
+    android:showAsAction="never"
+    android:tittle="@string/account"
+    />
+<item
+    android:id="@+id/notification"
+    android:showAsAction="never"
+    android:orderInCategory="101"
+    android:tittle="@string/notification"
+    />
+  <item
+    android:id="@+id/social"
+    android:orderInCategory="102"
+    android:showAsAction="never"
+    android:tittle="@string/social"
+    /> 
+</menu>

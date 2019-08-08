@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+     
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#000000">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:minWidth="25px"
+        android:minHeight="25px">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/tableLayout1">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tableRow2"
+                >
+
+                <ImageView
+                    android:layout_width="136.0dp"
+                    android:layout_height="177.5dp"
+                    android:src="@drawable/divide"
+                    android:scaleType="centerCrop"
+                    android:layout_margin= "25dp"
+                    android:layout_marginBottom="0.0dp"
+                    android:id="@+id/EdSheeran"/>
+
+
+
+                <ImageView
+                    android:layout_width="136.0dp"
+                    android:layout_height="177.0dp"
+                    android:src="@drawable/lauv"
+                    android:scaleType="centerCrop"
+                    android:layout_margin= "25dp"
+                    android:id="@+id/Lauv"/>
+
+
+            </TableRow>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/relativeLayout1">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Perfect - Ed Sheeran"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="30dp"
+                    android:id="@+id/Music1" 
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="I Like Me Better - Lauv"
+                    android:textColor="@color/white"
+                    android:id="@+id/Music2"
+                    android:layout_marginLeft="215dp"
+                    android:layout_marginBottom="0.0dp" 
+                    />
+            </RelativeLayout>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tableRow2"
+                android:layout_margin="20px"
+                >
+                <ImageView
+                    android:layout_width="136.0dp"
+                    android:layout_height="177.0dp"
+                    android:src="@drawable/bob_marley"
+                    android:scaleType="centerCrop"
+                    android:layout_margin= "25dp"
+                    android:id="@+id/Bob"/>
+
+                <ImageView
+                    android:layout_width="136.0dp"
+                    android:layout_height="177.0dp"
+                    android:src="@drawable/jaz"
+                    android:scaleType="centerCrop"
+                    android:layout_margin= "25dp"
+                    android:id="@+id/Jaz"/>
+
+            </TableRow>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/relativeLayout2">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/BobText"
+                    android:text="Get Up, Stand Up - Bob Marley"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/JazText"
+                    android:text="Dari Mata - Jaz"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="240dp"/>
+
+                
+            </RelativeLayout>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20px"
+                android:id="@+id/tableRow3">
+
+                <ImageView
+                    android:layout_width="136.0dp"
+                    android:layout_height="177.0dp"
+                    android:src="@drawable/havana"
+                    android:scaleType="centerCrop"
+                    android:layout_margin= "25dp"
+                    android:id="@+id/Havana"/>
+                <ImageView
+                    android:layout_width="136.0dp"
+                    android:layout_height="177.0dp"
+                    android:src="@drawable/the_weekend"
+                    android:scaleType="centerCrop"
+                    android:layout_margin= "25dp"
+                    android:id="@+id/Starboy"/>
+
+            </TableRow>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/relativeLayout3">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Havana - Camila Cabello"
+                    android:textColor="@color/white"
+                    android:id="@+id/HavanatextView" 
+                    android:layout_marginLeft="30dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Starboy - The Weekend"
+                    android:textColor="@color/white"
+                    android:id="@+id/Starboytextview4"
+                    android:layout_marginLeft="250dp"
+                    />
+            </RelativeLayout>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20px"
+                android:id="@+id/tableRow4">
+
+                <ImageView
+                    android:layout_width="136.0dp"
+                    android:layout_height="177.0dp"
+                    android:src="@drawable/micheal"
+                    android:scaleType="centerCrop"
+                    android:layout_margin= "25dp"
+                    android:id="@+id/micheal"/>
+                <ImageView
+                    android:layout_width="136.0dp"
+                    android:layout_height="177.0dp"
+                    android:src="@drawable/micheal_buble"
+                    android:scaleType="centerCrop"
+                    android:layout_margin= "25dp"
+                    android:id="@+id/micheal_B"/>
+
+            </TableRow>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/relativeLayout4">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Man In the Mirror
+- Micheal Jackson"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="30dp"
+                    android:id="@+id/michealTextView" 
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Its A Beautiful Day - 
+Michael Buble"
+                    android:textColor="@color/white"
+                    android:id="@+id/michealBTextView"
+                    android:layout_marginLeft="230dp" 
+                    />
+            </RelativeLayout>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20px"
+                android:id="@+id/tableRow5">
+
+                <ImageView
+                    android:layout_width="136.0dp"
+                    android:layout_height="177.0dp"
+                    android:src="@drawable/ariana"
+                    android:scaleType="centerCrop"
+                    android:layout_margin= "25dp"
+                    android:id="@+id/ariana"/>
+                <ImageView
+                    android:layout_width="136.0dp"
+                    android:layout_height="177.0dp"
+                    android:src="@drawable/adele"
+                    android:scaleType="centerCrop"
+                    android:layout_margin= "25dp"
+                    android:id="@+id/adele"/>
+
+            </TableRow>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/relativeLayout5">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dangerous Woman
+- Ariana Grande"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="40dp"
+                    android:id="@+id/arianaTextView" 
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hello - Adele"
+                    android:textColor="@color/white"
+                    android:id="@+id/adeleTextView"
+                    android:layout_marginLeft="260dp"
+                    />
+            </RelativeLayout>
+
+
+
+        </TableLayout>
+    </ScrollView>
+
+</RelativeLayout>
+
